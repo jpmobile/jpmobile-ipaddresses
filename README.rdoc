@@ -1,0 +1,24 @@
+= jpmobile-ipaddresses: Carrier IP Address List for jpmobile
+
+== About jpmobile-ipaddresses
+主要キャリアのIPアドレスリストを管理する jpmobile 用プラグイン。
+
+== インストール
+=== Rails pluginとしてインストールする場合
+  % rails plugin install git://github.com/jpmobile/jpmobile-ipaddresses.git
+
+=== gemでインストールする場合
+  % gem install jpmobile-ipaddresses
+
+== カスタマイズするには
+forkして編集してください。編集結果をpluginとしてインストールするとよいでしょう。
+
+== リンク
+
+* http://jpmobile-rails.org
+
+== 作者
+
+Copyright 2006-2010 (c) Shin-ichiro OGAWA, Yoji Shidara, under MIT License.
+
+Shin-ichiro OGAWA <rust.stnard@gmail.com>
