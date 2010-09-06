@@ -5,22 +5,24 @@
 
 Gem::Specification.new do |s|
   s.name = %q{jpmobile-ipaddresses}
-  s.version = "0.0.0"
+  s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Shin-ichiro OGAWA"]
-  s.date = %q{2010-09-03}
+  s.date = %q{2010-09-06}
   s.description = %q{Carrier IP Address List for jpmobile}
   s.email = %q{rust.stnard@gmail.com}
   s.extra_rdoc_files = [
     "README"
   ]
   s.files = [
-    "MIT-LICENSE",
+    ".gitignore",
+     "MIT-LICENSE",
      "README",
      "Rakefile",
      "VERSION",
-     "lib/jpmobile.rb",
+     "jpmobile-ipaddresses.gemspec",
+     "lib/jpmobile-ipaddresses.rb",
      "lib/jpmobile/mobile/ip_addresses/abstract_ip_addresses.rb",
      "lib/jpmobile/mobile/ip_addresses/au.rb",
      "lib/jpmobile/mobile/ip_addresses/docomo.rb",
