@@ -4,11 +4,13 @@ module Jpmobile
       class Softbank < AbstractIpAddresses
         class << self
           def ip_address_list
-            @@ip_address_list ||= [
-              "123.108.237.0/27",
-              "202.253.96.224/27",
-              "210.146.7.192/26",
-            ].map {|ip| IPAddr.new(ip) }
+            @@ip_address_list ||= %w(
+              123.108.237.112/28
+              123.108.239.224/28
+              202.253.96.144/28
+              202.253.99.144/28
+              210.228.189.188/30
+            ).map {|ip| IPAddr.new(ip) }
           end
         end
       end
